@@ -1,0 +1,9 @@
+@function _color($color) {
+  @return map-get($palette, $color);
+}
+
+@function get-key($index, $list) {
+  $keys: map-keys($list);
+  @debug $keys;
+  @return nth($keys, $index);
+}

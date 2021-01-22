@@ -1,0 +1,24 @@
+/*
+  Variables
+*/
+
+$font-family: 'Poppins', Helvetica, sans-serif !default;
+
+$gutter: 3rem !default;
+$grid-columns: 12;
+
+// Palette
+$palette: (
+  primary-color: #f6b35a,
+  bg: #fff,
+  text-color: #222,
+) !default;
+
+$breakpoints: (
+  xs: 480px,
+  sm: 576px,
+  md: 768px,
+  lg: 992px,
+  xl: 1200px,
+  xxl: 1600px,
+) !default;
